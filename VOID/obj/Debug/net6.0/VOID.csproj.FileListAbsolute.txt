@@ -1,0 +1,15 @@
+C:\Users\lokij\Desktop\Знакомство с С#\VOID\obj\Debug\net6.0\VOID.csproj.AssemblyReference.cache
+C:\Users\lokij\Desktop\Знакомство с С#\VOID\obj\Debug\net6.0\VOID.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lokij\Desktop\Знакомство с С#\VOID\obj\Debug\net6.0\VOID.AssemblyInfoInputs.cache
+C:\Users\lokij\Desktop\Знакомство с С#\VOID\obj\Debug\net6.0\VOID.AssemblyInfo.cs
+C:\Users\lokij\Desktop\Знакомство с С#\VOID\obj\Debug\net6.0\VOID.csproj.CoreCompileInputs.cache
+C:\Users\lokij\Desktop\Знакомство с С#\VOID\bin\Debug\net6.0\VOID.exe
+C:\Users\lokij\Desktop\Знакомство с С#\VOID\bin\Debug\net6.0\VOID.deps.json
+C:\Users\lokij\Desktop\Знакомство с С#\VOID\bin\Debug\net6.0\VOID.runtimeconfig.json
+C:\Users\lokij\Desktop\Знакомство с С#\VOID\bin\Debug\net6.0\VOID.dll
+C:\Users\lokij\Desktop\Знакомство с С#\VOID\bin\Debug\net6.0\VOID.pdb
+C:\Users\lokij\Desktop\Знакомство с С#\VOID\obj\Debug\net6.0\VOID.dll
+C:\Users\lokij\Desktop\Знакомство с С#\VOID\obj\Debug\net6.0\refint\VOID.dll
+C:\Users\lokij\Desktop\Знакомство с С#\VOID\obj\Debug\net6.0\VOID.pdb
+C:\Users\lokij\Desktop\Знакомство с С#\VOID\obj\Debug\net6.0\VOID.genruntimeconfig.cache
+C:\Users\lokij\Desktop\Знакомство с С#\VOID\obj\Debug\net6.0\ref\VOID.dll
