@@ -214,7 +214,7 @@ PrintArray(array);
 Console.WriteLine();
 Scan();
 
-//решение 3.
+//решение 3 (мое)
 
 void Print(int[] arr) //ф-я печати массива
 {
@@ -248,19 +248,19 @@ int p = int.Parse(Console.ReadLine());
 
 Print(mass);
 
-bool Exist = false; //вводим булево значение для фиксирования нахождения
+bool exist = false; //вводим булево значение для фиксирования нахождения
 //или не нахождения числа в массиве
 
 for (int i = 0; i < mass.Length; i++) 
 {
     if ( mass[i] == p ) //сверяем каждый элемент массива с искомым числом
     {
-        Exist = true; //при нахождении фиксируем 
+        exist = true; //при нахождении фиксируем 
         break; //и прерываем цикл
     }
     
 }
-if (Exist == true) Console.WriteLine("Элемент найден");
+if (exist) Console.WriteLine("Элемент найден"); //true подразумевается по умолчанию
 else Console.WriteLine("Элемент НЕ найден"); */
 
 /* Задача 35: Задайте одномерный массив из 123 случайных чисел.
@@ -341,6 +341,29 @@ PrintArray(array);
 Console.WriteLine();
 Check(); */
 
+//Решение_3. мое.
+/* int[] mass = new int[123];
+for (int i = 0; i < mass.Length; i++)
+{
+    mass[i] = new Random().Next(0,200);
+    Console.Write($"{mass[i]} ");
+}
+int Summa(int[] mass)
+{
+    int count = 0;
+    for (int i = 0; i < mass.Length; i++)
+    {
+        if (mass[i] > 9 && mass[i] < 100)
+        count++;
+    }
+    return count;
+}
+
+Console.WriteLine();
+Console.WriteLine("Количество элементов в заданном отрезке " + Summa(mass));
+ 
+ 
+*/
 // Задача 37
 //Найдите произведение пар чисел в одномерном массиве.
 //Парой считаем первый и последний элемент, второй и предпоследний
@@ -348,36 +371,31 @@ Check(); */
 //[1 2 3 4 5] -> 5 8 3
 //[6 7 3 6] -> 36 21
 
-/* int [] array = new int [6];
-
-for (int i = 0; i < array.Length; i++)
+/* void Print(int[] arr) //ф-я печати массива
 {
-    array[i] = new Random().Next(-9, 10);
-}
-
-int [] result = new int [(array.Length + 1)/2];
-
-void PrintArray(int [] collection)
-
-{
-    for (int i = 0; i < collection.Length; i++)
+    for (int i = 0; i < arr.Length; i++)
     {
-        Console.Write(collection[i] + " ");
+        Console.Write(arr[i] + " ");
+        //Console.Write($"{arr[i]} ");
     }
+    Console.WriteLine();
 }
 
-void Multiplication()
-{
-for (int i = 0; i < (array.Length-1)/ 2; i++)
-{
-    //if (i <= (array.Length -1) / 2)
+int[] mass = new int[5];
+    for (int i = 0; i < mass.Length; i++)
     {
-    //Console.WriteLine(array[i] * array[array.Length - 1 - i]);//произведение пар с выодом в консоль
-    result[i] = array [i] * array[array.Length];
+        mass[i] = new Random().Next(1, 10);
     }
-}
+
+int[] mass2 = new int[(mass.Length +1)/2];
+
+for (int i = 0; i < mass2.Length; i++)
+{
+    mass2[i] = mass[i] * mass[mass.Length -1 -i]; //перемножение элементов массива
 }
 
-PrintArray(array);
+if (mass.Length % 2 == 1) mass2[mass2.Length -1] = mass[mass.Length / 2]; //исправление проблемы с перемножением среднего элемента на самого себя
+
+Print(mass);
 Console.WriteLine();
-Multiplication(); */
+Print(mass2); */

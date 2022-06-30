@@ -97,3 +97,59 @@ else Console.WriteLine("Элемент НЕ найден"); */
 [5, 18, 123, 6, 2] -> 1
 [1, 2, 3, 6, 2] -> 0
 [10, 11, 12, 13, 14] -> 5 */
+
+/* int[] mass = new int[123];
+for (int i = 0; i < mass.Length; i++)
+{
+    mass[i] = new Random().Next(0,200);
+    Console.Write($"{mass[i]} ");
+}
+int Summa(int[] mass)
+{
+    int count = 0;
+    for (int i = 0; i < mass.Length; i++)
+    {
+        if (mass[i] > 9 && mass[i] < 100)
+        count++;
+    }
+    return count;
+}
+
+Console.WriteLine();
+Console.WriteLine("Количество элементов в заданном отрезке " + Summa(mass)); */
+
+// Задача 37
+//Найдите произведение пар чисел в одномерном массиве.
+//Парой считаем первый и последний элемент, второй и предпоследний
+//и т.д. Результат запишите в новом массиве.
+//[1 2 3 4 5] -> 5 8 3
+//[6 7 3 6] -> 36 21
+
+/* void Print(int[] arr) //ф-я печати массива
+{
+    for (int i = 0; i < arr.Length; i++)
+    {
+        Console.Write(arr[i] + " ");
+        //Console.Write($"{arr[i]} ");
+    }
+    Console.WriteLine();
+}
+
+int[] mass = new int[5];
+    for (int i = 0; i < mass.Length; i++)
+    {
+        mass[i] = new Random().Next(1, 10);
+    }
+
+int[] mass2 = new int[(mass.Length +1)/2];
+
+for (int i = 0; i < mass2.Length; i++)
+{
+    mass2[i] = mass[i] * mass[mass.Length -1 -i];
+}
+
+if (mass.Length % 2 == 1) mass2[mass2.Length -1] = mass[mass.Length / 2];
+
+Print(mass);
+Console.WriteLine();
+Print(mass2); */
