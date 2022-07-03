@@ -153,3 +153,34 @@ if (mass.Length % 2 == 1) mass2[mass2.Length -1] = mass[mass.Length / 2];
 Print(mass);
 Console.WriteLine();
 Print(mass2); */
+
+//Задача42. НПк преобразовывает десятичное число в двоичное
+
+void Print(int[] arr)
+{
+    for (int i = 0; i < arr.Length; i++)
+    {
+        Console.Write(arr[i] + " ");
+    }
+    Console.WriteLine();
+}
+
+Console.WriteLine("Введите число: ");
+int num10 = int.Parse(Console.ReadLine());
+int count = num10;
+
+int index = 0;
+while (count > 0) //счетчик для понимая размера массива 
+{
+    count = count / 2;
+    index++;
+}
+//Console.WriteLine(index);
+int[] num2 = new int[index]; 
+
+for (int i = 0; num10 > 0; i++)
+{
+    num2[num2.Length - 1 - i] = num10 % 2; //переводим десятичное в двоичное и сразу записываем в обратном порядке
+    num10 = num10 / 2;
+}
+Print(num2);
