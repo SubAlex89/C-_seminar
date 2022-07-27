@@ -156,7 +156,7 @@ Print(mass2); */
 
 //Задача42. НПк преобразовывает десятичное число в двоичное
 
-void Print(int[] arr)
+/* void Print(int[] arr)
 {
     for (int i = 0; i < arr.Length; i++)
     {
@@ -183,4 +183,70 @@ for (int i = 0; num10 > 0; i++)
     num2[num2.Length - 1 - i] = num10 % 2; //переводим десятичное в двоичное и сразу записываем в обратном порядке
     num10 = num10 / 2;
 }
-Print(num2);
+Print(num2); */
+
+//Задача 52. Задайте 2мерный массив из целых чисел.
+//Найдите среднее арифметическое эл-ов в каждом столбце.
+
+/* void Print2(int[,] arr) //ф-я вывода 2х мерного массива
+{
+    for (int i = 0; i < arr.GetLength(0); i++)
+    {
+        for (int j = 0; j < arr.GetLength(1); j++)
+        {
+            Console.Write(arr[i, j] + "  ");
+        }
+    Console.WriteLine();
+    }
+Console.WriteLine();
+}
+
+void Print1(double[] arr) //ф-я вывода 1х мерного массива
+{
+    for (int i = 0; i < arr.Length; i++)
+    {
+        Console.Write(arr[i] + "  ");
+    }
+Console.WriteLine();
+}
+
+int n = 6;
+int m = 5;
+int[,] mass = new int[n,m];
+
+for (int i = 0; i < mass.GetLength(0); i++)
+{
+    for (int j = 0; j < mass.GetLength(1); j++)
+    {
+        mass[i,j] = i + j;
+    }
+}
+
+Print2(mass);
+
+double[] average = new double[m];
+
+for (int j = 0; j < mass.GetLength(1); j++)
+{
+
+    for (int i = 0; i < mass.GetLength(0); i++)
+    {
+        average[j] += mass[i,j];
+    }
+average[j] = average[j] / n;
+}
+
+Print1(average);
+ */
+
+static int A(int n, int m)
+    {
+        if (n < 0 || m < 0) throw new ArgumentOutOfRangeException();
+        if (n == 0) return m + 1;
+        if (m == 0) return A(n - 1, m);
+        return A(n - 1, A(n, m - 1));
+    }
+    //static void Main(string[] args)
+
+Console.WriteLine(A(2, 5));
+Console.WriteLine(A(1, 2));

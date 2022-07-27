@@ -1,0 +1,15 @@
+C:\Users\lokij\Desktop\Знакомство с С#\Task_07\bin\Debug\net6.0\Task_07.exe
+C:\Users\lokij\Desktop\Знакомство с С#\Task_07\bin\Debug\net6.0\Task_07.deps.json
+C:\Users\lokij\Desktop\Знакомство с С#\Task_07\bin\Debug\net6.0\Task_07.runtimeconfig.json
+C:\Users\lokij\Desktop\Знакомство с С#\Task_07\bin\Debug\net6.0\Task_07.dll
+C:\Users\lokij\Desktop\Знакомство с С#\Task_07\bin\Debug\net6.0\Task_07.pdb
+C:\Users\lokij\Desktop\Знакомство с С#\Task_07\obj\Debug\net6.0\Task_07.csproj.AssemblyReference.cache
+C:\Users\lokij\Desktop\Знакомство с С#\Task_07\obj\Debug\net6.0\Task_07.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lokij\Desktop\Знакомство с С#\Task_07\obj\Debug\net6.0\Task_07.AssemblyInfoInputs.cache
+C:\Users\lokij\Desktop\Знакомство с С#\Task_07\obj\Debug\net6.0\Task_07.AssemblyInfo.cs
+C:\Users\lokij\Desktop\Знакомство с С#\Task_07\obj\Debug\net6.0\Task_07.csproj.CoreCompileInputs.cache
+C:\Users\lokij\Desktop\Знакомство с С#\Task_07\obj\Debug\net6.0\Task_07.dll
+C:\Users\lokij\Desktop\Знакомство с С#\Task_07\obj\Debug\net6.0\refint\Task_07.dll
+C:\Users\lokij\Desktop\Знакомство с С#\Task_07\obj\Debug\net6.0\Task_07.pdb
+C:\Users\lokij\Desktop\Знакомство с С#\Task_07\obj\Debug\net6.0\Task_07.genruntimeconfig.cache
+C:\Users\lokij\Desktop\Знакомство с С#\Task_07\obj\Debug\net6.0\ref\Task_07.dll
